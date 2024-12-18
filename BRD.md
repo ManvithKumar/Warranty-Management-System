@@ -38,19 +38,27 @@ Users :
 Product :
     ProductId
     ProductName
-    ProductImage
     Category
-    SerialNumber
     Description
     PurchaseDate
     WarrantyPeriod
     UserId
     CreatedOn
 
+SerialProducts:
+    SerialNumber
+    ProductId
+    ProductImage
+    MetaData
+    {
+        color:red
+        model:{}
+    }
+
 Claims :
     ClaimId
     UserId
-    ProductId
+    SerialNumber
     Description
     Meta{    
         priority:{Low, Medium,High},
@@ -74,7 +82,7 @@ Assigned :
 
 Waranty :
     WarantyId
-    ProductId
+    SerialNumber
     StartDate
     EndDate
     Cost
