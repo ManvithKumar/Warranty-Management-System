@@ -42,6 +42,7 @@ Product :
     Description
     PurchaseDate
     WarrantyPeriod
+    MetaData
     UserId
     CreatedOn
 
@@ -60,7 +61,7 @@ Claims :
     UserId
     SerialNumber
     Description
-    Meta{    
+    MetaData{    
         priority:{Low, Medium,High},
         read:boolean
         color:random
@@ -93,3 +94,13 @@ WarantyPurchased:
     Amount
     Source
     PayedOn
+
+MetaData
+    MetaId
+    Meta Name
+    Meta Description
+    Other{}
+    ProductId
+    Color
+
+        
