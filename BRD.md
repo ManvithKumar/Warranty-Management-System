@@ -40,21 +40,19 @@ Product :
     ProductName
     Category
     Description
-    PurchaseDate
-    WarrantyPeriod
+    ProductImage
     MetaData
     UserId
     CreatedOn
 
+
 SerialProducts:
     SerialNumber
     ProductId
-    ProductImage
+    UserIf
     MetaData
-    {
-        color:red
-        model:{}
-    }
+    PurchaseDate
+    WarrantyPeriod
 
 Claims :
     ClaimId
@@ -96,10 +94,12 @@ WarantyPurchased:
     PayedOn
 
 MetaData
-    MetaId
+    MetaId(Model Number)
     Meta Name
     Meta Description
-    Other{}
+    Other{
+       (ProductImage) google:drive link for images
+    }
     ProductId
     Color
 

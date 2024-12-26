@@ -2,6 +2,7 @@ import AdminFlow from './flows/admin/AdminFlow'
 import CustomerFlow from './flows/customer/CustomerFlow'
 import CustomerCareFlow from './flows/customer-care/CustomerCareFlow'
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css'
 
